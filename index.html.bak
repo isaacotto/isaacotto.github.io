@@ -4,10 +4,17 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Isaac Otto HTML</title>
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<style>
+	@font-face { font-family: Inconsolata; src: url('Inconsolata-VariableFont_wdth,wght.ttf'); } 
+      h1 {
+         font-family: Inconsolata
+      }
+	</style>
   </head>
-  <body style=" background-color:LightGray;">
+  <body style=" background-color:#E5E8E8;">
     <pre>    
-
+<p style="font-family:'Inconsolata">
+<p style="font-size:14px">
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 |......................................................|
 |...... <strong><em>Isaac Otto</strong></em> ....................................|
@@ -17,33 +24,10 @@
 |......................................................|
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                ____________
-               /\  ________ \
-              /  \ \______/\ \
-             / /\ \ \  / /\ \ \
-            / / /\ \ \/ / /\ \ \
-           / / /__\ \ \/_/__\_\ \__________
-          / /_/____\ \__________  ________ \
-          \ \ \____/ / ________/\ \______/\ \
-           \ \ \  / / /\ \  / /\ \ \  / /\ \ \
-            \ \ \/ / /\ \ \/ / /\ \ \/ / /\ \ \
-             \ \/ / /__\_\/ / /__\ \ \/_/__\_\ \
-              \  /_/______\/_/____\ \___________\
-              /  \ \______/\ \____/ / ________  /
-             / /\ \ \  / /\ \ \  / / /\ \  / / /
-            / / /\ \ \/ / /\ \ \/ / /\ \ \/ / /
-           / / /__\ \ \/_/__\_\/ / /__\_\/ / /
-          / /_/____\ \_________\/ /______\/ /
-          \ \ \____/ / ________  __________/
-           \ \ \  / / /\ \  / / /
-            \ \ \/ / /\ \ \/ / /
-             \ \/ / /__\_\/ / /
-              \  / /______\/ /
-               \/___________/
-	   
-	   
+
 ........................................................
-<em><strong>...Selected Works.......................................</strong></em>
+.. <em><strong>Selected Works</strong></em> ......................................
+........................................................
 
 
  <strong><i>Dense Star Polymer Conjugates</strong></i>
@@ -92,11 +76,11 @@
  <em><strong>Modular Series</strong></em> [ongoing]
 	for mixed instrumentation
 
-	<a href="https://drive.google.com/file/d/12St0oPeFgN5rOIz1oHYiA713zMgFbsoL/view?usp=sharing">I</a> - open inst. 
-	<a href="https://drive.google.com/file/d/1o3AB4gUPeiLQ4jS-Oe1ivCSYJ1IVWWEu/view?usp=sharing">II</a> - open inst.
-	<a href="https://drive.google.com/file/d/1P9-X6_CbWozm9xlEIlrrsoqwsKT3JXKL/view?usp=sharing">III</a> - open inst.
-	<a href="https://drive.google.com/file/d/1pvMAJ3MzpSxe9R6bTn23omZArKK7P36n/view?usp=sharing">IV</a> - open inst.
-	<a href="https://drive.google.com/file/d/1bxKCWuKKKkMgrBgVyLFhDWMeyVjfNIVZ/view?usp=sharing">V</a> - open inst.
+	<a href="https://drive.google.com/file/d/12St0oPeFgN5rOIz1oHYiA713zMgFbsoL/view?usp=sharing">I</a> - open instrumentation
+	<a href="https://drive.google.com/file/d/1o3AB4gUPeiLQ4jS-Oe1ivCSYJ1IVWWEu/view?usp=sharing">II</a> - open instrumentation
+	<a href="https://drive.google.com/file/d/1P9-X6_CbWozm9xlEIlrrsoqwsKT3JXKL/view?usp=sharing">III</a> - open instrumentation
+	<a href="https://drive.google.com/file/d/1pvMAJ3MzpSxe9R6bTn23omZArKK7P36n/view?usp=sharing">IV</a> - open instrumentation
+	<a href="https://drive.google.com/file/d/1bxKCWuKKKkMgrBgVyLFhDWMeyVjfNIVZ/view?usp=sharing">V</a> - open instrumentation
 	VI - for three melodic instruments
 	<a href="https://drive.google.com/file/d/1gaEkv7FvV5lRB-zL_f7GnRwX_KdcxAcb/view?usp=sharing">VII</a> - for Bb instrument and bass
 	<a href="https://drive.google.com/file/d/1yv7hUYvmFu8S4TBTnjupilSLhsgYR3kA/view?usp=sharing">VIII</a> - for jazz combo
@@ -110,10 +94,12 @@
 
 
 ........................................................
-<em><strong>...Other Projects.......................................</strong></em>
+.. <em><strong>Other Projects</strong></em> ......................................
+........................................................
 
 
 	<em><strong>CW / AR / JI / IO </strong></em>[2020]
+	
 		Chris Williams - tpt
 		Atticus Reynolds - d
 		James Ilgenfritz - cbs
@@ -139,7 +125,8 @@
 
 
 ........................................................
-<em><strong>...Biography............................................</strong></em>
+.. <em><strong>Biography</strong></em> ...........................................
+........................................................
 
 
 Isaac Otto is a composer, clarinetist, and saxophonist
@@ -160,10 +147,10 @@ Fei, Fred Frith and Zeena Parkins.
 <em>
 
 <strong>
-...Contact..............................................</strong></em>
+.. Contact .............................................</strong></em>
 ........................................................
-.......Personal || <a href="mailto: isaacottohayes@gmail.com">isaacottohayes@gmail.com</a>............. 
-.......Academic || <a href="mailto: ihayes@uci.edu">ihayes@uci.edu</a>.......................
+...... Personal || <a href="mailto: isaacottohayes@gmail.com">isaacottohayes@gmail.com</a> ............ 
+...... Academic || <a href="mailto: ihayes@uci.edu">ihayes@uci.edu</a> ......................
 ........................................................ 
 <em><strong>........................................................</strong></em>
 
@@ -193,7 +180,8 @@ Fei, Fred Frith and Zeena Parkins.
 	   
 <!-- hitwebcounter Code START -->
 <a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=7913865&style=0024&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>	   
+<img src="https://hitwebcounter.com/counter/counter.php?page=7913866&style=0007&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>
+
 </pre>
   </body>
 </html>
