@@ -101,12 +101,13 @@ pre {
 }
 .longpiece {
   /* margin-bottom: .5cm; */
-  padding-left: 18em;
+  /* padding-left: 18em; */
   text-indent: -3em;
-  width: 400px;
+  width: 350px;
   /* height: auto; */
   /* hyphens: auto; */
   text-align: left;
+  display: inline-block;
 }
 
 .par1 {
