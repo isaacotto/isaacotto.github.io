@@ -8,10 +8,10 @@ body {
   background-color: #333333;
   color: #BBBBBB;
 
-  a:link { color: pink; text-decoration: none; }
-  a:visited { color: lightblue; text-decoration: none; }
-  a:hover { color: white; text-decoration: underline; }
-  a:active{ color: red; text-decoration: underline; }
+  a:link { color: pink !important; text-decoration: none; }
+  a:visited { color: lightblue !important; text-decoration: none; }
+  a:hover { color: white !important; text-decoration: underline; }
+  a:active{ color: red !important; text-decoration: underline; }
 
   hr { width: 50%; margin-bottom: 20px; }
 .short { width: 25%; }
