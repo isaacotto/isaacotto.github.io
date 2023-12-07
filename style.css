@@ -54,14 +54,20 @@ div {
 
 #wrapper {
     width=550px;
-    overflow:hidden;
+    overflow: hidden;
     align: center;
     padding: 10px;
 }
 
-#first { width: 325px; float:left; }
+#first { 
+    width: 325px; float:left;
+}
 
-#second { overflow: hidden; vertical-align: top; }
+#second {
+    overflow:
+    hidden;
+    vertical-align: top;
+}
 
 .linkbar {
     text-align: center;
