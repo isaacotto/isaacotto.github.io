@@ -99,6 +99,15 @@ pre {
   hyphens: auto;
   text-align: justify;
 }
+.longpiece {
+  /* margin-bottom: .5cm; */
+  padding-left: 18em;
+  text-indent: -3em;
+  width: 400px;
+  /* height: auto; */
+  /* hyphens: auto; */
+  text-align: left;
+}
 
 .par1 {
   margin-bottom: .5cm;
@@ -133,4 +142,6 @@ pre {
 
 .centered {
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
