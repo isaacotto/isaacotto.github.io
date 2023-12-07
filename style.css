@@ -40,7 +40,9 @@ div {
         img {
             border: 3px solid rgba(190, 190, 255, .5);
             width: 400px;
-            height: auto
+            height: auto;
+            object-fit: contain;
+            max-width:100%;
         }
 }
 
