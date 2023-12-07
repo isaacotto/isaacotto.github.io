@@ -1,0 +1,129 @@
+/* GLOBAL SETTINGS */
+@font-face {
+    font-family: FiraCode;
+    src: url('fonts/FiraCodeNerdFont-Medium.ttf');
+    }
+
+body {
+  background-color: #333333;
+  color: #BBBBBB;
+
+  a:link { color: pink; text-decoration: none; }
+  a:visited { color: lightblue; text-decoration: none; }
+  a:hover { color: white; text-decoration: underline; }
+  a:active{ color: red; text-decoration: underline; }
+
+  hr { width: 50%; margin-bottom: 20px; }
+.short { width: 25%; }
+}
+
+/* keep in mind that the header ASCII art is 86 characters long */
+/* and approximately 630 pixels wide (at least on my setup?) */
+.center { /* this is the big central box */
+  border: 2.5mm ridge rgba(190, 190, 190, .6);/* 5px solid; */
+  margin: auto; /* this is what allows centering of main column */
+  width: 630px;
+  padding: 10px;
+}
+
+/* DIVISION STYLES */
+div {
+  font-family: FiraCode;
+  font-size: 12px;
+  text-align: left;
+  /*text-align: justify;*/
+  hyphens: auto;
+  text-justify: inter-word;
+}
+.centerimg {
+    text-align: center;
+        img {
+            border: 3px solid rgba(190, 190, 255, .5);
+            width: 400px;
+            height: auto
+        }
+}
+
+.inleft {
+    padding: 30px; /* additional padding */
+}
+
+#wrapper {
+    width=550px;
+    overflow:hidden;
+    align: center;
+    padding: 10px;
+}
+
+#first { width: 325px; float:left; }
+
+#second { overflow: hidden; vertical-align: top; }
+
+.linkbar {
+    text-align: center;
+    padding: 5px;
+}
+
+/* PRE STYLES */
+.pre1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pre2 {
+    text-align: center;
+}
+
+
+/* PARAGRAPH STYLES */
+.piece {
+  margin-bottom: .5cm;
+  padding-left: 3em;
+  text-indent: -3em;
+  width: 250px;
+  hyphens: auto;
+  text-align: justify;
+}
+
+.longpiece {
+  margin-bottom: .5cm;
+  padding-left: 3em;
+  text-indent: -3em;
+  width: 400px;
+  hyphens: auto;
+  text-align: justify;
+}
+.par1 {
+  margin-bottom: .5cm;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+.par2 {
+  margin-bottom: .5cm;
+  padding-left: 3em;
+  padding-right: 3em;
+  text-indent: -2em;
+  text-align: justify;
+}
+
+.par3 {
+  margin-bottom: .5cm;
+  padding-left: 3em;
+  text-indent: -3em;
+  hyphens: auto;
+  text-align: justify;
+}
+
+
+.h1 {
+    padding: 5px;
+    text-align: center;
+    color: #DDDDDD;
+    font-size: 12px; 
+    font-style: bold;
+}
+
+.centered {
+    text-align: center;
+}
