@@ -1,7 +1,9 @@
 /* GLOBAL SETTINGS */
 @font-face {
     font-family: FiraCode;
-    src: url('fonts/FiraCodeNerdFont-Medium.ttf');
+    /*src: url('fonts/FiraCodeNerdFont-Medium.ttf'); */
+    src: url('fonts/FiraCodeNerdFont-SemiBold.ttf'); 
+    /*src: url('fonts/InconsolataLGCNerdFontMono-Bold.ttf'); */
     }
 
   a:link { color: pink !important; text-decoration: none; }
