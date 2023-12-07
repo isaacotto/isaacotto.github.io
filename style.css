@@ -41,11 +41,12 @@ div {
 
 .centerimg {
     text-align: center;
-        img {
-            border: 3px solid rgba(190, 190, 255, .5);
-            width: 50%;
-            height: 100%;
-        }
+    padding: 10px;
+        /* img { */
+        /*     /1* border: 3px solid rgba(190, 190, 255, .5); *1/ */
+        /*     width: 50%; */
+        /*     height: 100%; */
+        /* } */
 }
 
 .inleft {
