@@ -71,6 +71,7 @@ div {
 }
 
 .linkbar {
+    font-size: 12px;
     text-align: center;
     padding: 5px;
 }
@@ -104,7 +105,7 @@ pre {
   /* margin-bottom: .5cm; */
   /* padding-left: 18em; */
   text-indent: -3em;
-  width: 350px;
+  width: auto;
   /* height: auto; */
   /* hyphens: auto; */
   text-align: left;
