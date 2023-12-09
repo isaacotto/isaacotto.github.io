@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Image Display</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #333333;
+    }
+    img {
+      position: absolute;
+      width: 25%; 
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    // Array of image file names (replace with your image filenames)
+    const imageFiles = [
+'01-3dotscurve.png         ',
+'01-3dotscurvebracket.png  ',
+'01-3dotscurvebracket2.png ',
+'01-basiccurve.png         ',
+'01-blankbracket.png       ',
+'01-box.png                ',
+'01-boxwithair.png         ',
+'01-boxwithchord.png       ',
+'01-complexcurve.png       ',
+'01-curve1.png             ',
+'01-curve2.png             ',
+'01-curvebreakdown.png     ',
+'01-curvecontext.png       ',
+'01-demobracket.png        ',
+'01-demobracket2.png       ',
+'01-demobracket3.png       ',
+'01-demofig.png            ',
+'01-extarrow.png           ',
+'01-gliss.png              ',
+'01-linetypes.png          ',
+'01-simplecurve.png        ',
+'01-simplecurve2.png       ',
+'01-simplecurve3.png       ',
+'01-simplecurve4.png       ',
+'01-varyingstroke1.png     ',
+'01-varyingstroke2.png     ',
+'02-dynamics1.png          ',
+'02-dynamics2.png          ',
+'02-lolly1.png             ',
+'02-lolly2.png             ',
+'02-lolly3.png             ',
+'02-lolly4.png             ',
+'02-lolly5.png             ',
+'02-sim.png                ',
+'02-sim2.png               ',
+'02-thinline.png           ',
+'02-thinline2.png          ',
+'02-timbre1.png            ',
+'02-timbre2.png            ',
+'02-varyingstrokecurve.png ',
+'02-varyingstrokedot.png   ',
+'02-varyingstrokeline.png  ',
+'03-build.png              ',
+'03-counterpoint.png       ',
+'03-decompose.png          ',
+'03-denser.png             ',
+'03-dominate.png           ',
+'03-dominate2.png          ',
+'03-echo.png               ',
+'03-exaggerate.png         ',
+'03-faster.png             ',
+'03-higher.png             ',
+'03-ignore.png             ',
+'03-louder.png             ',
+'03-match.png              ',
+'03-memorize.png           ',
+'03-multiply.png           ',
+'03-noisier.png            ',
+'03-purer.png              ',
+'03-recall.png             ',
+'03-repeat1.png            ',
+'03-repeat2.png            ',
+'03-rest.png               ',
+'03-rest2.png              ',
+'03-rhythmicize.png        ',
+'03-rubato.png             ',
+'03-support.png            ',
+'03-transition.png         ',
+'04-chords.png             ',
+'04-chords2.png            ',
+'04-chords3.png            ',
+'04-chords4.png            ',
+'04-chords5.png            ',
+'04-doublestops.png        ',
+'04-doublestops2.png       ',
+'04-doublestops3.png       ',
+'04-doublestops4.png       ',
+'04-harmonics.png          ',
+'04-harmonics2.png         ',
+'04-harmonics3.png         ',
+'04-multiphonics1.png      ',
+'04-multiphonics2.png      ',
+'04-multiphonics3.png      ',
+'04-multiphonics4.png      ',
+'05-bracketdemo1.png       ',
+'05-bracketdemo2.png       ',
+'05-drums.png              ',
+'05-drums2.png             ',
+'05-interruption1.png      ',
+'05-interruption2.png      ',
+'05-interruption3.png      ',
+'05-interruption4.png      ',
+'05-relation1.png          ',
+'05-relation2.png          ',
+'05-relation3.png          ',
+'05-relation4.png          ',
+'05-sticks.png             ',
+'05-territory.png          ',
+'06-Artboard 2.png         ',
+'06-Artboard 3.png         ',
+'06-Artboard 4.png         ',
+'08-dur1.png               ',
+'08-dur2.png               ',
+'08-dur3.png               ',
+'08-met1.png               ',
+'08-met2.png               ',
+'08-met3.png               ',
+'08-met4.png               ',
+'08-nonpitched.png         ',
+'08-star.png               ',
+'08-trill1.png             ',
+'08-trill2.png             ',
+'axesexample.png           ',
+'lolly1.png                ',
+'percussionpictograms.png  ',
+      // Add more image file names as needed ',
+    ];
+
+    window.onload = () => {
+      const body = document.body;
+
+      // Function to get a random number between min and max values
+      const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+
+      // Function to create and position images randomly
+      const placeImagesRandomly = () => {
+        imageFiles.forEach((imageName) => {
+          const img = new Image();
+          img.src = `./images/glyphs/${imageName}`; // Replace with the path to your image directory
+
+          img.onload = () => {
+            const scaledWidth = img.width * 0.25; // Calculate scaled width
+            const scaledHeight = img.height * 0.25; // Calculate scaled height
+
+            const xPos = getRandomNumber(0, window.innerWidth - scaledWidth);
+            const yPos = getRandomNumber(0, window.innerHeight - scaledHeight);
+
+            img.style.width = `${scaledWidth}px`; // Set scaled width
+            img.style.height = `${scaledHeight}px`; // Set scaled height
+            img.style.left = `${xPos}px`;
+            img.style.top = `${yPos}px`;
+            body.appendChild(img);
+          };
+        });
+      };
+
+      placeImagesRandomly();
+    };
+  </script>
+</body>
+</html>
+
