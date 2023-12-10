@@ -41,12 +41,7 @@ div {
 
 .centerimg {
     text-align: center;
-    padding: 10px;
-        /* img { */
-        /*     /1* border: 3px solid rgba(190, 190, 255, .5); *1/ */
-        /*     width: 50%; */
-        /*     height: 100%; */
-        /* } */
+    img {filter: drop-shadow(10px 10px 5px black);}
 }
 
 .inleft {
@@ -103,13 +98,13 @@ pre {
 }
 .longpiece {
   /* margin-bottom: .5cm; */
-  /* padding-left: 18em; */
+  padding-left: 18em;
   text-indent: -3em;
   width: auto;
   /* height: auto; */
   /* hyphens: auto; */
   text-align: left;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .par1 {
@@ -127,13 +122,20 @@ pre {
 }
 
 .par3 {
+    margin-top: .5cm;
   margin-bottom: .5cm;
-  padding-left: 3em;
-  text-indent: -3em;
+  hyphens: auto;
+  text-align: justify;
+  width: 200px;
+  display: inline-block
+}
+
+.squarepar {
+  margin-bottom: .5cm;
+  width: 200px;
   hyphens: auto;
   text-align: justify;
 }
-
 
 .h1 {
     padding: 5px;
