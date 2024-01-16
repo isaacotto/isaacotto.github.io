@@ -150,3 +150,39 @@ pre {
     justify-content: center;
     align-items: center;
 }
+
+/* SPECIAL SCROLLING TEXT BAR */
+
+.scroll-left {
+    height: 25px;
+    overflow: hidden;
+    position: relative;
+    background: transparent;
+    color: orange;
+    border: 1px dashed black;
+    margin-bottom: 1em;
+}
+
+.scroll-left p {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    line-height: 25px;
+    text-align: center;
+    /* Starting position */
+    transform: translateX(100%);
+    /* apply anim. to this element */
+    animation: scroll-left 15s linear infinite;
+}
+
+/* Move it (define the animation) */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
