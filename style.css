@@ -121,6 +121,14 @@ pre {
   text-align: justify;
 }
 
+.parcenter {
+  margin-bottom: .5cm;
+  padding-left: 3em;
+  padding-right: 3em;
+  text-indent: -2em;
+  text-align: center;
+}
+
 .par3 {
     margin-top: .5cm;
   margin-bottom: .5cm;
