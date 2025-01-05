@@ -15,18 +15,23 @@
 </head>
 
 <body>
-    <div class="center">
-    <div class="linkbar">
-    <a href="./index.html">home</a>
-    ---
-    <a href="./sound.html">sound</a>
-    ---
-    <a href="./image.html">image</a>
-    ---
-    <a href="./text.html">[text]</a>
-    ---
-    <a href="./contact.html">contact</a>
-</div>
+<div class="center">
+
+<!-- link bar at top of page -->
+
+    <div class="linkbar" id="navbar"></div>
+
+    <script>
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById('navbar').innerHTML = html;
+      })
+      .catch(err => console.error('Error loading navigation:', err));
+    </script>
+
+<!-- end link bar -->
+
 <pre class="pre1">
 ████████ ███████ ██   ██ ████████ 
    ██    ██       ██ ██     ██    

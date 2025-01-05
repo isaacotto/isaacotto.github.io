@@ -15,18 +15,23 @@
 </head>
 
 <body>
-    <div class="center">
-    <div class="linkbar">
-        <a href="./index.html">home</a>
-        ---
-        <a href="./sound.html">[sound]</a>
-        ---
-        <a href="./image.html">image</a>
-        ---
-        <a href="./text.html">text</a>
-        ---
-        <a href="./contact.html">contact</a>
-    </div>
+<div class="center">
+
+<!-- link bar at top of page -->
+
+    <div class="linkbar" id="navbar"></div>
+
+    <script>
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById('navbar').innerHTML = html;
+      })
+      .catch(err => console.error('Error loading navigation:', err));
+    </script>
+
+<!-- end link bar -->
+
 <pre class="pre1">
 ▓▓▓▓▓▓▓  ▓▓▓▓▓▓  ▓▓    ▓▓ ▓▓▓    ▓▓ ▓▓▓▓▓▓  
 ▓▓      ▓▓    ▓▓ ▓▓    ▓▓ ▓▓▓▓   ▓▓ ▓▓   ▓▓ 
@@ -41,8 +46,21 @@
         recent works
     </h1>
     <p class="par2">
-    <a href="https://isaacotto.bandcamp.com/album/live-forever-no-1"><i>Live Forever N°˙ 1</i></a> --- a suite of improvised trio music recorded with no cuts and no overdubs at Specific Northwest in Los Angeles, California (January, 2024). For ease of listening it has been split into six tracks that, hopefully, demonstrate material unity and a meaningful arc. Isaac (alto sax ; clarinet ; bass clarinet) is joined here by Atticus Reynolds (drums) and the fabulous Dario Bizio (double bass). Listen on Bandcamp at the link above.
+    <a href="https://infrequentseams.bandcamp.com/album/oshi"><i>OSHI</i> / Isaac Otto and Niloufar Shiri</a> (released on Infrequent Seams, 2024-11) --- OSHI  is an album by Isaac Otto (B♭ clarinet ; bass clarinet ; Tascam ; Marantz ; little instruments) and Niloufar Shiri (kamancheh ; qeychak ; Realistic VSC-2000 ; little instruments). Born of two noisemakers' months-long multimodal collaboration, OSHI uses mechano-acoustics to chart the low-level topography of the desert of the spirit, eventually coming down in favor of a militant horizontality; of a desire to embrace the inevitable crushing of the upright, the architectonic, into a dusty, homogeneous plane.<br><br>
+
+    Xerodromes I, II, and IV, our studio recordings, are maps of the resulting arid territories, or the reading of those maps. Hear how the wispy lines and little sonic rivulets collapse into one another as they spread out from the survey marker: as soon as a new feature takes shape, it dissolves again into gray, dry sand. This is not to say nothing is gained from the act of measuring, only that the "findings" themselves are intangible; fleeting.<br><br>
+
+    Finally, Nemat-space, the live cut, proselytizes our newfound mode of systematic "wandering" on the grounds that it forms (so far) the only viable method of keeping oneself oriented once everything more than an inch above sea-level has been flattened. The human voices you hear reveal that, yes, despite your ineluctable death and subsequent incorporeality, you still have the chance at a rich inner life (albeit, admittedly, one comprising mostly disjoint fragments of other peoples' thoughts and feelings).<br><br>
+    <p class="par2">
+
+    <a href="https://isaacotto.bandcamp.com/album/live-forever-no-1"><i>Live Forever N°˙ 1</i></a> (self-released 2024-10) --- a suite of improvised trio music recorded with no cuts and no overdubs at Specific Northwest in Los Angeles, California (January, 2024). For ease of listening it has been split into six tracks that, hopefully, demonstrate material unity and a meaningful arc. Isaac (alto sax ; clarinet ; bass clarinet) is joined here by Atticus Reynolds (drums) and the fabulous Dario Bizio (double bass). Listen on Bandcamp at the link above.
     </p>
+
+    <hr>
+
+    <h1 class="h1">
+        selected compositions
+    </h1>
             <div id="wrapper">
                 <div id="first">
                     <p class="piece">

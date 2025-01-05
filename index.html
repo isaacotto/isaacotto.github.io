@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>io - home</title>
@@ -17,18 +17,22 @@
 <body>
 
 <div class="center" id="top">
+
 <!-- link bar at top of page -->
-<div class="linkbar">
-    <a href="./index.html">[home]</a>
-    ---
-    <a href="./sound.html">sound</a>
-    ---
-    <a href="./image.html">image</a>
-    ---
-    <a href="./text.html">text</a>
-    ---
-    <a href="./contact.html">contact</a>
-</div>
+
+    <div class="linkbar" id="navbar"></div>
+
+    <script>
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById('navbar').innerHTML = html;
+      })
+      .catch(err => console.error('Error loading navigation:', err));
+    </script>
+
+<!-- end link bar -->
+
 <pre class="pre1">
     _/                                                          _/      _/               
         _/_/_/    _/_/_/    _/_/_/    _/_/_/        _/_/    _/_/_/_/_/_/_/_/    _/_/    
@@ -37,16 +41,23 @@
 _/  _/_/_/      _/_/_/    _/_/_/    _/_/_/        _/_/        _/_/    _/_/    _/_/   	
 </pre>
 
-<div class="scroll-left">
-  <p> New album <i><b>Live Forever No. 1</b></i> <a href="https://isaacotto.bandcamp.com/album/live-forever-no-1">for your listening pleasure</a> out now.</p>
-</div>
+<!-- <div class="scroll-left"> -->
+<!--     <p><a href="https://infrequentseams.bandcamp.com/album/oshi">A NEW ALBUM BY ISAAC NILOUFAR SHIRI OUT NOW FOR YOUR LISTENING PLEASURE</a></p> -->
+<!-- </div> -->
+
 
     <div class="centerimg">
         <img src="images/gaze.jpg" alt="gaze" title="gaze" style="width:600px;height:auto;border:1mm solid rgba(190, 190, 190, .6);filter: drop-shadow(0px 0px 0px black);">
     </div>
 
-    <div>
+    <div class="centerimg">
+    <p class="par3">
+    🖭 <a href="https://infrequentseams.bandcamp.com/album/oshi">A NEW ALBUM BY ISAAC OTTO AND NILOUFAR SHIRI OUT NOW ON INFREQUENT SEAMS FOR YOUR LISTENING PLEASURE</a>
+    🖭
+    </p>
+    </div>
 
+    <div>
             <p class="par2">
             Isaac (born 1989, Phoenix, AZ ; raised Little Rock, AR) is a composer/improviser and multi-woodwind performer based in Los Angeles, CA. He recently graduated from <a href="https://uci.edu/">UC Irvine's</a> <a href="https://music.arts.uci.edu/icit/">Integrated Composition, Improvisation and Technology</a> PhD program where he specialized in 20th- and 21st-century music notations. His dissertation "<i>Scoring the Unknown: Rethinking Fixity and Openness in Western Art Music Notation</i>" is now available via UCI's library and <a href="https://escholarship.org/uc/item/48w4k5vj">via eScholarship</a>.
             </p>
