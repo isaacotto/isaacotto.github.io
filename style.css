@@ -114,7 +114,7 @@ pre {
 }
 
 .par2 {
-  margin-bottom: .75cm;
+  margin-bottom: .5cm;
   padding-left: 3em;
   padding-right: 3em;
   text-indent: -2em;
@@ -130,12 +130,12 @@ pre {
 }
 
 .par3 {
-    margin-top: .5cm;
+  margin-top: .5cm;
   margin-bottom: .5cm;
   hyphens: auto;
   text-align: justify;
   width: 200px;
-  display: inline-block
+  display: inline-block;
 }
 
 .squarepar {
@@ -143,6 +143,28 @@ pre {
   width: 200px;
   hyphens: auto;
   text-align: justify;
+}
+
+.longpar {
+    margin-top: .5cm;
+    margin-bottom: .5cm;
+    padding-left: 3em;
+    padding-right: 3em;
+    hyphens: auto;
+    text-align: justify;
+    width: 200px
+    display: inline-block;
+}
+
+.marc {
+    margin-top: .5cm;
+    margin-bottom: .5cm;
+    padding-left: 3em;
+    padding-right: 3em;
+    hyphens: auto;
+    text-align: left;
+    width: 200px
+    display: inline-block;
 }
 
 .h1 {
