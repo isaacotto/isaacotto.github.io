@@ -97,7 +97,7 @@ pre {
   text-align: justify;
 }
 .longpiece {
-  /* margin-bottom: .5cm; */
+  margin-bottom: 1cm;
   padding-left: 18em;
   text-indent: -3em;
   width: auto;
@@ -114,7 +114,7 @@ pre {
 }
 
 .par2 {
-  margin-bottom: .5cm;
+  margin-bottom: .75cm;
   padding-left: 3em;
   padding-right: 3em;
   text-indent: -2em;
